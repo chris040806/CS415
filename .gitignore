@@ -1,0 +1,75 @@
+############################################
+# Unreal Engine (UE4/UE5) - Project .gitignore
+############################################
+
+# --- Generated folders (never commit) ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Some teams also ignore this if it appears
+.vscode/
+.vs/
+.idea/
+*.VC.db
+*.VC.opendb
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*.swn
+
+# --- Build products / packaged output ---
+# If you have a custom folder for packaged builds, add it here, e.g.:
+# PackagedBuilds/
+# Releases/
+
+# --- Unreal crash reports ---
+crashinfo--*
+
+# --- Unreal generated project files (regenerable) ---
+# Visual Studio / Rider / Xcode project files
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.VCXPROJ*
+*.vcxproj*
+*.opensdf
+*.sdf
+*.ipch
+*.xcodeproj
+*.xcworkspace
+
+# --- CMake / compile database (if used) ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# --- Unreal AutomationTool / UBT artifacts ---
+Engine/Programs/AutomationTool/Saved/
+Engine/Programs/UnrealBuildTool/Log.txt
+
+############################################
+# Keep these (do NOT ignore)
+############################################
+# These are core project assets:
+#   Config/
+#   Content/
+#   Plugins/
+#   Source/ (if C++)
+#   *.uproject
